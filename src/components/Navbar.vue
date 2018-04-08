@@ -2,16 +2,7 @@
   <div class="container is-fluid">
     <div class="container">
     <nav class="navbar">
-
-      <!-- Always visible -->
-      <div class="navbar-brand">
-
-        <!-- for mobile -->
-        <mobile-navbar></mobile-navbar>
-
-      </div>
-
-      <!-- for desktop -->
+      
       <desktop-navbar></desktop-navbar>
 
     </nav>

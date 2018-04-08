@@ -1,16 +1,14 @@
 <template>
-<div>
-  <large-title></large-title>
-  <div class="container">
+  <div>
+    <large-title></large-title>
     <presentation></presentation>
   </div>
-</div>
 
 </template>
 
 <script>
-import Title from './Title.vue'
-import Content from './Content.vue';
+import Title from './components/Title.vue'
+import Content from './components/Content.vue';
 
 export default {
 

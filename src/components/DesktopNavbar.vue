@@ -1,25 +1,22 @@
 <template lang="html">
-  <div id="navbarMenuHeroB" class="navbar-menu">
+  <div id="navbarMenuHeroB" class="navbar-menu is-active">
 
     <div class="navbar-start">
       <a class="navbar-item is-active">
         Home
       </a>
       <a class="navbar-item">
-        Examples
-      </a>
-      <a class="navbar-item">
-        Documentation
+        Curriculum
       </a>
     </div>
 
     <div class="navbar-end">
       <span class="navbar-item">
-        <a class="button is-info is-inverted">
+        <a class="button is-info is-inverted" href="https://github.com/Panderium" target="_blank">
           <span class="icon">
             <i class="fab fa-github"></i>
           </span>
-          <span>Download</span>
+          <span>Github</span>
         </a>
       </span>
     </div>
