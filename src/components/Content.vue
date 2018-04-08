@@ -1,6 +1,6 @@
 <template>
   <section class="section is-small">
-    <div class="content">
+    <div class="container">
       <div class="tile is-ancestor">
 
         <div class="tile is-2 is-vertical is-parent">
@@ -11,7 +11,7 @@
 
         <div class="tile is-parent">
           <div class="tile is-child">
-            <div class="content is-large">
+            <div class="content is-medium">
               <p>
                 Lomo neutra YOLO, cronut pour-over letterpress tote bag retro fashion axe messenger bag beard meditation. Forage whatever actually subway tile poke. Photo booth vape sartorial coloring book truffaut shoreditch mustache air plant hammock chillwave scenester schlitz. Post-ironic etsy pinterest gentrify four dollar toast waistcoat. Mlkshk post-ironic authentic, tumeric gastropub roof party mustache heirloom.
               </p>
@@ -36,7 +36,7 @@
 
         <div class="tile is-parent">
           <div class="tile is-child">
-            <div class="content is-large">
+            <div class="content is-medium">
               <p>
                 Tbh normcore YOLO, tilde vaporware butcher coloring book air plant skateboard direct trade poutine you probably haven't heard of them jianbing. Mustache DIY cloud bread, four dollar toast intelligentsia direct trade godard banjo vexillologist. Kogi tattooed raclette tbh. Paleo roof party activated charcoal, ramps kogi photo booth disrupt YOLO fashion axe try-hard wolf pok pok tacos. Hexagon cloud bread church-key crucifix, chambray meh meditation intelligentsia try-hard.
               </p>
