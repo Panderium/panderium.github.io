@@ -22,12 +22,12 @@
             <p>
               Originaire de Saint-Étienne, j'ai choisi de continuer mes études post-bac à Polytech Grenoble où j'ai pu acquérir de solides bases
               en porgrammation et en mathématique. J'ai ensuite consilidé et élargi mes connaissances en informatique à Lyon, à la fois en cours et en stage en
-              entreprise. J'envisage de poursuivre mes études à l'étranger en m'envolant pour le Canada. J'y étudierai l'informatique,
-              pendant 1 ans à l'UQAC (Université du Quebec à Chicoutimi).
+              entreprise. J'envisage de poursuivre mes études à l'étranger en m'envolant pour le Canada. J'y étudierai l'informatique
+              pendant 1 ans, à l'UQAC (Université du Quebec à Chicoutimi).
             </p>
             <p>
               Je ne m'interesse pas qu'à l'informatique, je pratique la guitare depuis 7 ans. J'ai pu participer à la création musicale en groupe et découvir la scène.
-              Mes influences majeurs se trouvent dans le rock et le métal, avec des groupes comme Pink Floyd, Red Hot Chili Peppers, Metallica, The Black Keys, The White Stripes, Sum41, The Smashing Pumpkins...
+              Mes influences majeurs se trouvent dans le rock et le métal avec des groupes comme Pink Floyd, Red Hot Chili Peppers, Metallica, The Black Keys, The White Stripes, Sum41, The Smashing Pumpkins...
             </p>
             <p>
               Je suis aussi membre du pôle partenariat du BDE de Polytech Lyon.
