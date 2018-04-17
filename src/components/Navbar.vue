@@ -1,31 +1,35 @@
 <template>
-  <div class="container is-fluid">
-    <div class="container">
-    <nav class="navbar">
-      
-      <desktop-navbar></desktop-navbar>
-
-    </nav>
-  </div>
-    <div class="is-divider"></div>
-  </div>
+  <nav class="navbar container">
+    <div id="navbarMenuHeroB" class="navbar-menu is-active">
+      <div class="navbar-end">
+          <span class="navbar-item">
+            <a class="button is-link is-inverted" href="https://www.linkedin.com/in/alexis-fougerouse-a83456116/"
+               target="_blank">
+              <span class="icon">
+                <i class="fab fa-linkedin-in"></i>
+              </span>
+              <span>LinkedIn</span>
+            </a>
+          </span>
+        <span class="navbar-item">
+            <a class="button is-link is-inverted" href="https://github.com/Panderium" target="_blank">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Github</span>
+            </a>
+          </span>
+      </div>
+    </div>
+  </nav>
 
 </template>
 
 <script>
-import MobileNavbar from './MobileNavbar.vue'
-import DesktopNavbar from './DesktopNavbar.vue';
-export default {
-
-  components: {
-    MobileNavbar,
-    DesktopNavbar
-  },
-}
+  export default {}
 </script>
 
 <style lang="css">
-.is-divider {
-  margin-top: 0;
-}
+
+
 </style>
