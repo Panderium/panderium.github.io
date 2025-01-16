@@ -35,8 +35,11 @@ DefaultContentLanguageInSubdir = true
         url = "" #TODO
         weight = 4
 
+    [languages.en.params.homepage.social]
+      title = "Follow me"
+
   [languages.fr]
-    contentDir = "content/de" # French
+    contentDir = "content/fr" # French
     weight = 2
     languageName = "Français"
     [languages.fr.params]
@@ -50,7 +53,7 @@ DefaultContentLanguageInSubdir = true
       weight = 1
 
     [[languages.fr.menu.main]]
-        name = "About"
+        name = "À propos"
         url = "page/about/"
         weight = 2
 
@@ -63,6 +66,10 @@ DefaultContentLanguageInSubdir = true
         name = "Support"
         url = "" #TODO
         weight = 4
+
+    [languages.fr.params.homepage.social]
+      title = "Suivez moi !"
+
 
 [params]
   darkModeToggle = true
@@ -92,10 +99,20 @@ DefaultContentLanguageInSubdir = true
   toc = true
 
   hidePageThumbnail = false
+  [[params.homepage.social.icons]]
+    website = "facebook"
+    url = "https://facebook.com/alexis.fougerouse/"
+  [[params.homepage.social.icons]]
+    website = "instagram"
+    url = "https://instagram.com/alexis_fougerouse/"
+  [[params.homepage.social.icons]]
+    website = "linkedin"
+    url = "https://linkedin.com/in/afougerouse"
+  [[params.homepage.social.icons]]
+    website = "github"
+    url = "https://github.com/Panderium"
 
-[[menu.main]]
-  name = "About"
-  url = "/about"
+
 
 [build]
   writeStats = true
