@@ -3,3 +3,5 @@
 /exampleSite/public
 /exampleSite/hugo_stats.json
 .DS_Store
+/public
+/resources

@@ -1,4 +1,128 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://alexisfougerouse.com'
+metaDataFormat = "yaml"
+title = "Infr'Art"
 theme = "blist"
+
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    contentDir = "content/en" #English
+    weight = 1
+    languageName = "English"
+    [languages.en.params]
+      introTitle = "Welcome! I'm Alexis"
+      introSubtitle = "DevOps and Infrastructure specialist, my main focus is on Kubernetes, CI/CD and Linux."
+    [[languages.en.menu.main]]
+      name = "Blog"
+      url = "blog"
+      weight = 1
+
+    [[languages.en.menu.main]]
+        name = "About"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.en.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+    
+    [[languages.en.menu.main]]
+        name = "Sponsor"
+        url = "" #TODO
+        weight = 4
+
+    [languages.en.params.homepage.social]
+      title = "Follow me"
+
+  [languages.fr]
+    contentDir = "content/fr" # French
+    weight = 2
+    languageName = "Français"
+    [languages.fr.params]
+      introTitle = "Bienvenue ! Je suis Alexis"
+      introSubtitle = "Spécialisé dans le DevOps et l'infrastructure, je m'intéresse principalement à Kubernetes, la CI/CD et Linux."
+    [[languages.fr.menu.main]]
+      name = "Blog"
+      url = "blog"
+      weight = 1
+
+    [[languages.fr.menu.main]]
+        name = "À propos"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.fr.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+    
+    [[languages.fr.menu.main]]
+        name = "Sponsor"
+        url = "" #TODO
+        weight = 4
+
+    [languages.fr.params.homepage.social]
+      title = "Suivez moi !"
+
+
+[params]
+  darkModeToggle = true
+
+  logo = "/logo_infrart.png"
+  introPhoto = "/picture_profile.jpeg"
+
+  enableSearch = true
+  searchKeys = [
+    "tags",
+    "date",
+    "categories",
+    "summary",
+    "content",
+    "link",
+    "author"
+  ]
+
+  copyright = "Copyright © 2025 - Alexis Fougerouse · All rights reserved"
+  favicon = "/favicon.svg"
+
+  ascentColor = "bg-amber-100"
+
+  frontBundle = "blog"
+
+  hideMeta = false
+
+  hideOtherLanguages = false
+
+  toc = true
+
+  hidePageThumbnail = false
+  [[params.homepage.social.icons]]
+    website = "facebook"
+    url = "https://facebook.com/alexis.fougerouse/"
+  [[params.homepage.social.icons]]
+    website = "instagram"
+    url = "https://instagram.com/alexis_fougerouse/"
+  [[params.homepage.social.icons]]
+    website = "linkedin"
+    url = "https://linkedin.com/in/afougerouse"
+  [[params.homepage.social.icons]]
+    website = "github"
+    url = "https://github.com/Panderium"
+
+
+
+[build]
+  writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true
