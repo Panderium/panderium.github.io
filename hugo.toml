@@ -12,8 +12,7 @@ DefaultContentLanguageInSubdir = true
     languageName = "English"
     [languages.en.params]
       introTitle = "Welcome! I'm Alexis"
-      introSubtitle = "DevOps and Infrastructure specialist, my main focus is on Kubernetes, CI/CD and Linux"
-      introPhoto = "" #TODO
+      introSubtitle = "DevOps and Infrastructure specialist, my main focus is on Kubernetes, CI/CD and Linux."
     [[languages.en.menu.main]]
       name = "Blog"
       url = "blog"
@@ -30,7 +29,7 @@ DefaultContentLanguageInSubdir = true
         weight = 3
     
     [[languages.en.menu.main]]
-        name = "Support"
+        name = "Sponsor"
         url = "" #TODO
         weight = 4
 
@@ -43,8 +42,7 @@ DefaultContentLanguageInSubdir = true
     languageName = "Français"
     [languages.fr.params]
       introTitle = "Bienvenue ! Je suis Alexis"
-      introSubtitle = "Spécialisé dans le DevOps et l'infrastructure, je m'intéresse principalement à Kubernetes, la CI/CD et Linux"
-      introPhoto = "" #TODO
+      introSubtitle = "Spécialisé dans le DevOps et l'infrastructure, je m'intéresse principalement à Kubernetes, la CI/CD et Linux."
     [[languages.fr.menu.main]]
       name = "Blog"
       url = "blog"
@@ -61,7 +59,7 @@ DefaultContentLanguageInSubdir = true
         weight = 3
     
     [[languages.fr.menu.main]]
-        name = "Support"
+        name = "Sponsor"
         url = "" #TODO
         weight = 4
 
@@ -71,7 +69,9 @@ DefaultContentLanguageInSubdir = true
 
 [params]
   darkModeToggle = true
+
   logo = "/logo_infrart.png"
+  introPhoto = "/picture_profile.jpeg"
 
   enableSearch = true
   searchKeys = [
