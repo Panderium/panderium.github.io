@@ -1,6 +1,6 @@
 baseURL = 'https://alexisfougerouse.com'
 metaDataFormat = "yaml"
-title = 'Alexis'
+title = "Infr'Art"
 theme = "blist"
 
 DefaultContentLanguage = "en"
@@ -11,10 +11,9 @@ DefaultContentLanguageInSubdir = true
     weight = 1
     languageName = "English"
     [languages.en.params]
-      introTitle = "Welcome! I'm Alexis Fougerouse"
+      introTitle = "Welcome! I'm Alexis"
       introSubtitle = "DevOps and Infrastructure specialist, my main focus is on Kubernetes, CI/CD and Linux"
       introPhoto = "" #TODO
-      logo = "" #TODO
     [[languages.en.menu.main]]
       name = "Blog"
       url = "blog"
@@ -43,10 +42,9 @@ DefaultContentLanguageInSubdir = true
     weight = 2
     languageName = "Français"
     [languages.fr.params]
-      introTitle = "Bienvenu! Je suis Alexis Fougerouse"
+      introTitle = "Bienvenue ! Je suis Alexis"
       introSubtitle = "Spécialisé dans le DevOps et l'infrastructure, je m'intéresse principalement à Kubernetes, la CI/CD et Linux"
       introPhoto = "" #TODO
-      logo = "" #TODO
     [[languages.fr.menu.main]]
       name = "Blog"
       url = "blog"
@@ -73,6 +71,7 @@ DefaultContentLanguageInSubdir = true
 
 [params]
   darkModeToggle = true
+  logo = "/logo_infrart.png"
 
   enableSearch = true
   searchKeys = [
@@ -86,7 +85,7 @@ DefaultContentLanguageInSubdir = true
   ]
 
   copyright = "Copyright © 2025 - Alexis Fougerouse · All rights reserved"
-  favicon = "" #TODO
+  favicon = "/favicon.svg"
 
   ascentColor = "bg-amber-100"
 
